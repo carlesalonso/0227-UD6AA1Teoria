@@ -330,12 +330,13 @@ Objectiu que tothom pugui tenir un certificat per la seva pàgina (necessari amb
 - Oscar Almarza.  *Google marcará las páginas web HTTP como ‘no seguras’ en julio* . UrbanTecno [Blog Internet]. Febrer 2018. Disponible a:
   - [https://urbantecno.com/noticia/google-marcara-las-paginas-web-http-como-no-seguras-en-julio](https://urbantecno.com/noticia/google-marcara-las-paginas-web-http-como-no-seguras-en-julio)
 - C. Cimpanu. *HTTP-over-QUIC to be renamed HTTP/3*. ZDNET [Blog]. Novembre 2018. Disponible a:
-  - [https://www.zdnet.com/article/http-over-quic-to-be-renamed-http3](https://www.zdnet.com/article/http-over-quic-to-be-renamed-http3)_
+  - [https://www.zdnet.com/article/http-over-quic-to-be-renamed-http3](https://www.zdnet.com/article/http-over-quic-to-be-renamed-http3)
 - T. Jarkov. *Qué Es HTTP/3 – Información Sobre el Nuevo y Rápido Protocolo Basado en UDP. Kinsta* [Blog]. Gener 2022. Disponible a:
   - [https://kinsta.com/es/blog/que-es-http3/](https://kinsta.com/es/blog/que-es-http3/)
 - P. van Brouwershaven. *¿Qué es la indicación de nombre de servidor (SNI)?*. GlobalSign [Blog]. Juny 2018. Disponible a:
   - [https://www.globalsign.com/es/blog/what-is-server-name-indication](https://www.globalsign.com/es/blog/what-is-server-name-indication)
-- C. Patton. *Adiós, ESNI, ¡hola, ECH!. The Cloudfare Blog* [Blog]. Desembre 2020. Disponible a:  _[https://blog.cloudflare.com/es-es/encrypted-client-hello-es-es/](https://blog.cloudflare.com/es-es/encrypted-client-hello-es-es/)
+- C. Patton. *Adiós, ESNI, ¡hola, ECH!. The Cloudfare Blog* [Blog]. Desembre 2020. Disponible a:
+- [https://blog.cloudflare.com/es-es/encrypted-client-hello-es-es/](https://blog.cloudflare.com/es-es/encrypted-client-hello-es-es/)
 
 ## Autoria
 
