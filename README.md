@@ -80,8 +80,6 @@ Google va proposar al 2009 el protocol SPDY i IETF el va adaptar per HTTP/2.
 
 Se situa entre TCP i TLS amb la idea de encabir múltiples peticions sobre una sola connexió TCP.
 
-![HTTP/2 multiplexing diagram](img/teoriaHTTP_4.png)
-
 ![HTTP/2 connection diagram](img/teoriaHTTP_5.png)
 
 - HTTP/2 es defineix tant amb TLS com sense xifrat, però els navegadors només accepten HTTP/2 amb xifrat
@@ -97,8 +95,6 @@ font: https://blog.cloudflare.com/es-es/http3-the-past-present-and-future-es-es/
 - Comprimeix les capçaleres HTTP, reduint la quantitat de dades transmeses.
 
 - El servidor pot enviar informació al client (PUSH) sense que el client faci la petició.
-
-![HTTP/2 PUSH](img/teoriaHTTP_7.png)
 
 - No cal canvis a les pàgines web. Només cal que el servidor i el navegador el suportin. </span>
 
@@ -135,13 +131,13 @@ Firefox, Chrome, Safari, Internet Explorer, Edge i Opera són alguns dels navega
 
 ## Navegadors: orígens
 
-<img src="img/teoriaHTTP_9.png" width=250px />
+<img src="img/teoriaHTTP_9.png" width=450px />
 
-<img src="img/teoriaHTTP_10.png" width=250px />
+> WordWideWeb per sistemes NeXT es considera el primer navegador web (1991)
 
-WordWideWeb per sistemes NeXT es considera el primer navegador web (1991)
+<img src="img/teoriaHTTP_10.png" width=450px />
 
-Mosaic va ser el primer navegador gràfic per Windows (1993) i la base dels posteriors navegadors.
+> Mosaic va ser el primer navegador gràfic per Windows (1993) i la base dels posteriors navegadors.
 
 ## Navegadors: actualitat
 
@@ -150,22 +146,12 @@ Mosaic va ser el primer navegador gràfic per Windows (1993) i la base dels post
   - En Mac Safari, Chrome i Firefox.
   - En Linux Firefox, Chromium, Lynx, Konqueror
 
-<img src="img/teoriaHTTP_11.png" width=250px />
-
-<img src="img/teoriaHTTP_12.png" width=250px />
-
-<img src="img/teoriaHTTP_13.png" width=250px />
-
-<img src="img/teoriaHTTP_14.png" width=250px />
-
-<img src="img/teoriaHTTP_15.png" width=250px />
-
 ## Navegant des del terminal
 
 - Tot i que no és el més habitual per navegar, tenim clients HTTP per terminal útils, per exemple, per descarregar arxius via web:
-  - El més popular és  _[cURL](https://en.wikipedia.org/wiki/CURL)_  __. __
-  - Un altra comanda Linux molt popular és  _[wget](https://en.wikipedia.org/wiki/Wget)_ .
-  - A Windows tenim la comanda PowerShell  _[Invoke-WebRequest ](https://msdn.microsoft.com/powershell/reference/4.0/microsoft.powershell.utility/Invoke-WebRequest)_ –Uri tot i que accepta l’àlies curl.
+  - El més popular és [cURL](https://en.wikipedia.org/wiki/CURL)
+  - Un altra comanda Linux molt popular és [wget](https://en.wikipedia.org/wiki/Wget).
+  - A Windows tenim la comanda PowerShell [Invoke-WebRequest ](https://msdn.microsoft.com/powershell/reference/4.0/microsoft.powershell.utility/Invoke-WebRequest) –Uri tot i que accepta l’àlies curl.
 
 Molt útils per scripts de descàrrega o necessaris per connexions a serveis web (aplicacions que usen el protocol HTTP per comunicar-se)
 
@@ -224,7 +210,7 @@ Darrera versió: 10.
 
 Inclou mòduls per ASP, ASP.NET i permet incloure PHP o Perl
 
-Pàgina oficial  _[www.iis.net](http://www.iis.net/)_  inclou guies, extensions, etc.
+Pàgina oficial  [www.iis.net](http://www.iis.net/) inclou guies, extensions, etc.
 
 ## CDN
 
@@ -245,8 +231,6 @@ El protocol TLS (anteriorment SSL).
 
 Protocol HTTPS s’utilitza el port 443.
 
-<img src="img/teoriaHTTP_23.png" width=250px />
-
 ## SSL/TLS: descripció breu
 
 SSL 2.0 1995 (Netscape)
@@ -258,8 +242,6 @@ Negociació entre client servidor.
 Intercanvi claus públiques i autenticació.
 
 Xifrat del trànsit (clau privada de sessió).
-
-<img src="img/teoriaHTTP_24.jpg" width=250px />
 
 ## Certificats
 
@@ -273,9 +255,9 @@ En la negociació del TLS s’utilitzen els certificats per l’intercanvi i aut
 
 ## Certificats: Servidor
 
-<img src="img/teoriaHTTP_25.png" width=250px />
+<img src="img/teoriaHTTP_25.png" width=450px />
 
-<img src="img/teoriaHTTP_26.png" width=250px />
+<img src="img/teoriaHTTP_26.png" width=450px />
 
 ## Autoritats de certificació
 
@@ -319,7 +301,7 @@ Objectiu que tothom pugui tenir un certificat per la seva pàgina (necessari amb
 - Permet disposar de certificats pels diferents virtualhost en un mateix servidor compartint IP i port.
 - Aquest identificador permet que tot i que el trànsit estigui xifrat, es pugui saber a quin domini s’està fent la petició (el SNI va sense xifrar).
 
-<img src="img/teoriaHTTP_28.png" width=250px />
+<img src="img/teoriaHTTP_28.png" width=450px />
 
 ## ECH
 
@@ -360,6 +342,6 @@ Objectiu que tothom pugui tenir un certificat per la seva pàgina (necessari amb
 - Aquests materials han estat elaborats per:
   - Carlos Alonso Martínez
 
-![Carlos Alonso Martínez author photo](img/teoriaHTTP_31.png)
+<img src="img/teoriaHTTP_31.png" width=250px />
 
 Aquesta obra està subjecta a una  _[Llicència Creative Commons Reconeixement-NoComercial-CompartirIgual 4.0 Internacional](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca).
