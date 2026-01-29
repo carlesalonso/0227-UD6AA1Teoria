@@ -1,5 +1,7 @@
 # UD6.AA1. Servei web
 
+<img src="img/teoriaHTTP_0.png" width=250px>
+
 ## RA5. Servei web i Proxy
 0227 Serveis de xarxa
 
@@ -9,9 +11,7 @@ Carlos Alonso Martínez
 
 carlos.martinez@mataro.epiaedu.cat
 
-v20260128
-
-<img src="img/teoriaHTTP_0.png" width=250px />
+Darrera versió: 29 de gener del 2026
 
 ---
 
