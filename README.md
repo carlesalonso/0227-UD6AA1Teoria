@@ -2,7 +2,8 @@
 
 <img src="img/teoriaHTTP_0.png" width=250px>
 
-## RA5. Servei web i Proxy
+## RA5. Servei web
+
 0227 Serveis de xarxa
 
 CFGM SMX
